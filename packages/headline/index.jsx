@@ -1,11 +1,4 @@
 import React from 'react';
+import Headline from './lib';
 
-// const Headline = () => (
-//   <h1>Hello Lerna + React</h1>
-// )
-
-const Headline = React.createElement('div', null,
-  React.createElement('h1', null, 'Hello Lerna')
-)
-
-export default Headline
+export default Headline;
